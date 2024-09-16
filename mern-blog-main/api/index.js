@@ -24,7 +24,7 @@ const __dirname = path.resolve();
 const app = express();
 app.use(cors(
   {
-    origin:["http://localhost:5173"],
+    origin:["https://blog-app-1-rouge.vercel.app","https://blog-app-1-git-main-khushi-gars-projects.vercel.app","https://blog-app-1-2zn26hfjm-khushi-gars-projects.vercel.app"],
     methods:["POST","GET"],
     credentials:true
   }
