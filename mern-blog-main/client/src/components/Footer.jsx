@@ -22,11 +22,11 @@ export default function FooterCom() {
               <Footer.Title title='About' />
               <Footer.LinkGroup col>
                 <Footer.Link
-                  href='https://www.100jsprojects.com'
+                  href='https://my-portfolio-swart-three-75.vercel.app/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                   JS Projects
+                   Khushi's portfolio
                 </Footer.Link>
                 <Footer.Link
                   href='/about'
@@ -69,9 +69,9 @@ export default function FooterCom() {
           <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
             <Footer.Icon href='#' icon={BsFacebook}/>
             <Footer.Icon href='#' icon={BsInstagram}/>
-            <Footer.Icon href='#' icon={BsTwitter}/>
-            <Footer.Icon href='https://github.com/sahandghavidel' icon={BsGithub}/>
-            <Footer.Icon href='#' icon={BsDribbble}/>
+            
+            <Footer.Icon href='https://github.com/khushi2301//' icon={BsGithub}/>
+            
 
           </div>
         </div>
