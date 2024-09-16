@@ -13,7 +13,7 @@ export default function DashComments() {
   useEffect(() => {
     const fetchComments = async () => {
       try {
-        const res = await fetch(`http://localhost:3000/api/comment/getcomments`);
+        const res = await fetch(`https://blog-app-lemon-delta.vercel.app/api/comment/getcomments`);
         const data = await res.json();
         if (res.ok) {
           setComments(data.comments);
