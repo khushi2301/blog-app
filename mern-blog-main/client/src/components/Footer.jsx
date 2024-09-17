@@ -22,7 +22,7 @@ export default function FooterCom() {
               <Footer.Title title='About' />
               <Footer.LinkGroup col>
                 <Footer.Link
-                  href='https://kgar.vercel.app/https://kgar.vercel.app/'
+                  href='https://kgar.vercel.app/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
