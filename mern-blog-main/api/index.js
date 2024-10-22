@@ -10,6 +10,8 @@ import path from 'path';
 import cors from 'cors';
 dotenv.config();
 
+
+
 mongoose
   .connect(process.env.MONGO)
   .then(() => {
@@ -24,7 +26,7 @@ const __dirname = path.resolve();
 const app = express();
 app.use(cors(
   {
-    origin:["https://blog-app-1-rouge.vercel.app","https://blog-app-1-git-main-khushi-gars-projects.vercel.app","https://blog-app-1-2zn26hfjm-khushi-gars-projects.vercel.app"],
+    origin:["https://blog-app-1-rouge.vercel.app","https://blog-app-1-git-main-khushi-gars-projects.vercel.app","https://blog-app-1-2zn26hfjm-khushi-gars-projects.vercel.app","http://localhost:5173"],
     methods:["POST","GET"],
     credentials:true
   }
